@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.wellcherish.texteditor"
+    namespace = "com.wellcherish.compose.texteditor"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -41,6 +41,8 @@ android {
 
 dependencies {
     implementation(project(":base"))
+    implementation(project(":data-api"))
+    runtimeOnly(project(":database"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -49,5 +51,8 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.runtime.livedata)
     debugImplementation(libs.androidx.compose.ui.tooling)
 }

@@ -32,6 +32,7 @@
 
     <dimen name="divider_height">2dp</dimen>
 
+    <dimen name="icon_size_large">32dp</dimen>
     <dimen name="icon_size_middle">24dp</dimen>
     <dimen name="icon_size_small">16dp</dimen>
 

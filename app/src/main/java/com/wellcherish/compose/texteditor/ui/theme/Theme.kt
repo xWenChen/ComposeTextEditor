@@ -1,6 +1,5 @@
-package com.wellcherish.texteditor.ui.theme
+package com.wellcherish.compose.texteditor.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

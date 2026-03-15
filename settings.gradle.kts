@@ -43,3 +43,5 @@ dependencyResolutionManagement {
 rootProject.name = "ComposeTextEditor"
 include(":app")
 include(":base")
+include(":database")
+include(":data-api")

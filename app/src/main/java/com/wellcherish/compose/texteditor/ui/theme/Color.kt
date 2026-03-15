@@ -1,4 +1,4 @@
-package com.wellcherish.texteditor.ui.theme
+package com.wellcherish.compose.texteditor.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
