@@ -42,6 +42,7 @@ android {
 dependencies {
     implementation(project(":base"))
     implementation(project(":data-api"))
+    implementation(libs.androidx.compose.ui.text.google.fonts)
     runtimeOnly(project(":database"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
