@@ -19,6 +19,9 @@ roomKtx = "2.8.4"
 autoService = "1.1.1"
 runtimeLivedata = "1.10.4"
 uiTextGoogleFonts = "1.12.0"
+junitJunit = "4.13.2"
+androidxJunit = "1.1.5"
+espressoCoreVersion = "3.5.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,6 +45,9 @@ androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtim
 auto-service = { group = "com.google.auto.service", name = "auto-service", version.ref = "autoService" }
 auto-service-annotations = { group = "com.google.auto.service", name = "auto-service-annotations", version.ref = "autoService" }
 androidx-compose-ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidxJunit" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCoreVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
